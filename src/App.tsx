@@ -1,11 +1,13 @@
-import Home from './Pages/Home';
+import React from 'react';
+import SignedUser from './SignedUser';
 
-function App() {
+const App: React.FC = () => {
+
   return (
-    <div className="h-full">
-      <Home />
+    <div>
+      <SignedUser />
     </div>
-  );
-}
+  );  
+};
 
 export default App;
